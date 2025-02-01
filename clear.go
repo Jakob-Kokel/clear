@@ -1,4 +1,4 @@
-package main
+package terminal
 
 import (
 	"os"
@@ -6,7 +6,6 @@ import (
 	"runtime"
 )
 
-func main () {}
 // Clear löscht das Terminal unabhängig vom Betriebssystem.
 func Clear() {
 	switch runtime.GOOS {
