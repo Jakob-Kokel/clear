@@ -20,8 +20,3 @@ func Clear() {
 		cmd.Run()
 	}
 }
-
-func init() {
-	Clear()
-	fmt.Println("Terminal wurde geleert!")
-}
